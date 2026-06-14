@@ -1,0 +1,16 @@
+{
+  "name": "Water Intake Calculator",
+  "short_name": "Water Calc",
+  "description": "Free Water Intake Calculator – personalized daily hydration based on weight, age, activity & climate.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0fbff",
+  "theme_color": "#00b4d8",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 4 C 18 22, 12 32, 12 42 a20 20 0 0 0 40 0 c0 -10 -6 -20 -20 -38 z' fill='%2300b4d8'/><ellipse cx='24' cy='38' rx='5' ry='8' fill='%23ffffff' opacity='.35'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

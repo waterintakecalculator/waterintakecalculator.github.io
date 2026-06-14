@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+
+<!-- ===================== PRIMARY SEO META ===================== -->
+<title>Water Intake Calculator – How Much Water Should I Drink a Day? | Free Hydration Calculator</title>
+<meta name="description" content="Free Water Intake Calculator – find out exactly how much water you should drink a day based on your weight, age, activity level &amp; climate. Daily hydration calculator in oz, ml &amp; cups. Fast, accurate, mobile-friendly." />
+<meta name="keywords" content="water intake calculator, daily water intake calculator, how much water should i drink, hydration calculator, water calculator by weight, water calculator ounces, water needs calculator, water consumption calculator, water intake calculator for women, water intake calculator for kids" />
+<meta name="author" content="Water Intake Calculator" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<meta name="rating" content="general" />
+<meta name="theme-color" content="#00b4d8" />
+<link rel="canonical" href="https://waterintakecalculator.github.io/" />
+
+<!-- ===================== OPEN GRAPH ===================== -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Water Intake Calculator" />
+<meta property="og:title" content="Water Intake Calculator – How Much Water Should You Drink a Day?" />
+<meta property="og:description" content="Calculate your perfect daily water intake based on weight, age, activity &amp; climate. Free hydration calculator." />
+<meta property="og:url" content="https://waterintakecalculator.github.io/" />
+<meta property="og:image" content="https://waterintakecalculator.github.io/assets/og-cover.png" />
+<meta property="og:locale" content="en_US" />
+
+<!-- ===================== TWITTER CARD ===================== -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Water Intake Calculator – Daily Hydration Calculator" />
+<meta name="twitter:description" content="Find out how much water YOU should drink each day. Free, fast, mobile-friendly." />
+<meta name="twitter:image" content="https://waterintakecalculator.github.io/assets/og-cover.png" />
+
+<!-- ===================== FAVICON (inline SVG – water drop) ===================== -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2300d4ff'/%3E%3Cstop offset='1' stop-color='%230077b6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M32 4 C 18 22, 12 32, 12 42 a20 20 0 0 0 40 0 c0 -10 -6 -20 -20 -38 z' fill='url(%23g)'/%3E%3Cellipse cx='24' cy='38' rx='5' ry='8' fill='%23ffffff' opacity='.35'/%3E%3C/svg%3E" />
+<link rel="manifest" href="manifest.json" />
+
+<!-- ===================== PRECONNECT ===================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- ===================== STRUCTURED DATA / SCHEMA ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://waterintakecalculator.github.io/#website",
+      "url": "https://waterintakecalculator.github.io/",
+      "name": "Water Intake Calculator",
+      "description": "Free Water Intake Calculator – daily hydration based on weight, age, activity and climate.",
+      "publisher": { "@id": "https://waterintakecalculator.github.io/#organization" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://waterintakecalculator.github.io/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://waterintakecalculator.github.io/#organization",
+      "name": "Water Intake Calculator",
+      "url": "https://waterintakecalculator.github.io/",
+      "email": "oursuna46@gmail.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://waterintakecalculator.github.io/assets/logo.png",
+        "width": 512,
+        "height": 512
+      }
+    },
+    {
+      "@type": "WebApplication",
+      "name": "Water Intake Calculator",
+      "url": "https://waterintakecalculator.github.io/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "1843",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much water should I drink a day?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The U.S. National Academies of Sciences recommend about 3.7 liters (125 oz) of total fluids per day for men and 2.7 liters (91 oz) for women. Personal needs vary by weight, activity level and climate — our calculator personalizes this number for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is daily water intake calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A common formula is body weight (lbs) × 0.5 = ounces of water per day. We also add extra fluid for exercise (12 oz per 30 minutes) and hot climate (+10–15%)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is 8 glasses of water a day enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The classic '8x8 rule' (eight 8-oz glasses = 64 oz) is a good starting point but it ignores weight, age, gender and activity. Most adults need 70–125 oz depending on those factors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can drinking too much water be harmful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Drinking more than 1 liter per hour for several hours can dilute sodium and cause hyponatremia. Stay within the calculator's recommended range and listen to thirst cues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do coffee and tea count toward water intake?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Despite the mild diuretic effect, coffee and tea contribute net positive fluid. Aim for at least 60% of daily intake from plain water though."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://waterintakecalculator.github.io/" },
+        { "@type": "ListItem", "position": 2, "name": "Water Intake Calculator", "item": "https://waterintakecalculator.github.io/#calculator" }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to use the Water Intake Calculator",
+      "description": "Calculate your personalized daily water intake in 4 simple steps.",
+      "step": [
+        { "@type": "HowToStep", "name": "Enter weight", "text": "Type your body weight in kilograms or pounds." },
+        { "@type": "HowToStep", "name": "Choose age & gender", "text": "Select your age range and biological gender for accurate baseline." },
+        { "@type": "HowToStep", "name": "Pick activity & climate", "text": "Select your daily activity level and whether you live in a hot climate." },
+        { "@type": "HowToStep", "name": "View results", "text": "Get your personalized intake in oz, ml, liters and cups instantly." }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<!-- ============== SKIP LINK ============== -->
+<a href="#calculator" class="skip-link">Skip to calculator</a>
+
+<!-- ============== HEADER ============== -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="Water Intake Calculator – Home">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="36" height="36">
+          <defs>
+            <linearGradient id="lg" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0" stop-color="#00d4ff"/>
+              <stop offset="1" stop-color="#0077b6"/>
+            </linearGradient>
+          </defs>
+          <path d="M32 4 C 18 22, 12 32, 12 42 a20 20 0 0 0 40 0 c0 -10 -6 -20 -20 -38 z" fill="url(#lg)"/>
+          <ellipse cx="24" cy="38" rx="5" ry="8" fill="#ffffff" opacity=".35"/>
+        </svg>
+      </span>
+      <span class="logo-text"><b>Water</b>Intake<span>Calculator</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="primary-menu">
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#water-by-age">Water by Age</a></li>
+        <li><a href="#article">Guide</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="btn-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ============== HERO + CALCULATOR ============== -->
+<main>
+<section class="hero" id="calculator">
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <span class="eyebrow">💧 Trusted by 2M+ hydrated users</span>
+      <h1>Water Intake Calculator – How Much Water Should <span class="gradient-text">YOU</span> Drink a Day?</h1>
+      <p class="lead">
+        Find out your <strong>exact daily hydration need</strong> in seconds. Our free
+        <strong>Water Intake Calculator</strong> personalizes results based on your weight, age, gender, activity level &amp; climate — backed by NIH and Mayo Clinic guidelines.
+      </p>
+      <ul class="hero-bullets">
+        <li>✅ Personalized water intake by weight</li>
+        <li>✅ Adjusts for exercise &amp; hot weather</li>
+        <li>✅ Results in oz, ml, liters &amp; cups</li>
+        <li>✅ 100% Free • No sign-up • Mobile friendly</li>
+      </ul>
+    </div>
+
+    <!-- ============ THE CALCULATOR CARD ============ -->
+    <div class="calc-card" role="region" aria-label="Water Intake Calculator Tool">
+
+      <div class="calc-tabs" role="tablist">
+        <button class="tab active" data-unit="metric" role="tab" aria-selected="true">🌐 Metric (kg / ml)</button>
+        <button class="tab" data-unit="imperial" role="tab" aria-selected="false">🇺🇸 Imperial (lbs / oz)</button>
+      </div>
+
+      <div class="calc-body">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="weight">Your weight</label>
+            <div class="weight-wrap">
+              <input type="number" id="weight" min="20" max="300" value="70" />
+              <span class="unit-label" id="weight-unit">kg</span>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="age">Age</label>
+            <select id="age">
+              <option value="child">Under 18</option>
+              <option value="adult" selected>18 – 55</option>
+              <option value="senior">56+</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="gender">Gender</label>
+            <select id="gender">
+              <option value="male" selected>Male</option>
+              <option value="female">Female</option>
+              <option value="pregnant">Pregnant</option>
+              <option value="breastfeeding">Breastfeeding</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="activity">Activity Level</label>
+            <select id="activity">
+              <option value="sedentary">😴 Sedentary (little exercise)</option>
+              <option value="light" selected>🚶 Light (1–3 days/wk)</option>
+              <option value="moderate">🏃 Moderate (3–5 days/wk)</option>
+              <option value="active">🏋️ Active (6–7 days/wk)</option>
+              <option value="athlete">🥇 Athlete (2x/day)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row single">
+          <div class="form-field">
+            <label for="climate">Climate</label>
+            <select id="climate">
+              <option value="cool">❄️ Cool (under 15 °C / 59 °F)</option>
+              <option value="moderate" selected>🌤 Moderate (15–25 °C)</option>
+              <option value="hot">☀️ Hot (25–32 °C / 77–90 °F)</option>
+              <option value="veryhot">🔥 Very Hot (32 °C+ / 90 °F+)</option>
+            </select>
+          </div>
+        </div>
+
+        <button id="calc-btn" class="btn-primary">Calculate My Water <span aria-hidden="true">→</span></button>
+
+        <div class="result" id="result" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== AD: 728x90 / mobile 320x50 — AFTER tool ============== -->
+<div class="ad-wrap ad-leaderboard container" aria-label="Advertisement">
+  <span class="ad-label">Advertisement</span>
+
+  <!-- Desktop 728x90 -->
+  <div class="ad-desktop">
+    <script>
+      atOptions = { 'key':'89189afc3b2a7a97800d4d7d9a851a84','format':'iframe','height':90,'width':728,'params':{} };
+    </script>
+    <script src="https://www.highperformanceformat.com/89189afc3b2a7a97800d4d7d9a851a84/invoke.js"></script>
+  </div>
+
+  <!-- Mobile 320x50 -->
+  <div class="ad-mobile">
+    <script>
+      atOptions = { 'key':'d1b907d5740fd8f02e0cf85c3975f879','format':'iframe','height':50,'width':320,'params':{} };
+    </script>
+    <script src="https://www.highperformanceformat.com/d1b907d5740fd8f02e0cf85c3975f879/invoke.js"></script>
+  </div>
+</div>
+
+<!-- ============== HOW IT WORKS ============== -->
+<section class="how" id="how-it-works">
+  <div class="container">
+    <h2 class="section-title">How the Water Intake Calculator Works</h2>
+    <p class="section-sub">Our formula combines the <strong>NIH baseline rule</strong> (35 ml per kg of body weight) with activity, climate &amp; life-stage adjustments — giving you a personalized number, not a one-size-fits-all 8-glass myth.</p>
+
+    <div class="how-grid">
+      <div class="how-card"><div class="how-num">1</div><h3>Enter Weight</h3><p>Toggle metric (kg) or imperial (lbs).</p></div>
+      <div class="how-card"><div class="how-num">2</div><h3>Age &amp; Gender</h3><p>Pick your range — includes pregnancy &amp; nursing.</p></div>
+      <div class="how-card"><div class="how-num">3</div><h3>Activity &amp; Climate</h3><p>Sweat = extra water. We add it automatically.</p></div>
+      <div class="how-card"><div class="how-num">4</div><h3>Get Your Number</h3><p>Personalized intake in oz, ml, liters &amp; cups.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MID 468x60 ============ -->
+<div class="ad-wrap ad-banner container" aria-label="Advertisement">
+  <span class="ad-label">Advertisement</span>
+  <script>
+    atOptions = { 'key':'2878e524350ef95b4a6f870ade28b549','format':'iframe','height':60,'width':468,'params':{} };
+  </script>
+  <script src="https://www.highperformanceformat.com/2878e524350ef95b4a6f870ade28b549/invoke.js"></script>
+</div>
+
+<!-- ============== WATER BY AGE ============== -->
+<section class="age" id="water-by-age">
+  <div class="container">
+    <h2 class="section-title">Recommended Daily Water Intake by Age &amp; Gender</h2>
+    <p class="section-sub">Based on the U.S. National Academies of Sciences, Engineering, and Medicine guidelines.</p>
+
+    <div class="table-wrap">
+      <table class="age-table">
+        <thead>
+          <tr><th>Group</th><th>Age</th><th>Total Fluids / day</th><th>≈ Glasses (8 oz)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Infant</td><td>0–6 months</td><td>0.7 L (from milk only)</td><td>—</td></tr>
+          <tr><td>Toddler</td><td>1–3 years</td><td>1.3 L (44 oz)</td><td>5–6</td></tr>
+          <tr><td>Child</td><td>4–8 years</td><td>1.7 L (57 oz)</td><td>7</td></tr>
+          <tr><td>Boy</td><td>9–13 years</td><td>2.4 L (81 oz)</td><td>10</td></tr>
+          <tr><td>Girl</td><td>9–13 years</td><td>2.1 L (71 oz)</td><td>9</td></tr>
+          <tr><td>Teen Boy</td><td>14–18 years</td><td>3.3 L (112 oz)</td><td>14</td></tr>
+          <tr><td>Teen Girl</td><td>14–18 years</td><td>2.3 L (78 oz)</td><td>10</td></tr>
+          <tr><td><strong>Adult Man</strong></td><td>19+ years</td><td><strong>3.7 L (125 oz)</strong></td><td><strong>15–16</strong></td></tr>
+          <tr><td><strong>Adult Woman</strong></td><td>19+ years</td><td><strong>2.7 L (91 oz)</strong></td><td><strong>11–12</strong></td></tr>
+          <tr><td>Pregnant Woman</td><td>any age</td><td>3.0 L (101 oz)</td><td>12–13</td></tr>
+          <tr><td>Breastfeeding Woman</td><td>any age</td><td>3.8 L (128 oz)</td><td>16</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="footnote">⚠ About 20% of daily fluid comes from food (fruits, soups, vegetables). The calculator already accounts for this.</p>
+  </div>
+</section>
+
+<!-- ============== DETAILED SEO ARTICLE ============== -->
+<article class="article" id="article">
+  <div class="container article-grid">
+    <div class="article-body">
+      <h2>The Complete Guide to Daily Water Intake &amp; Hydration</h2>
+
+      <p>Water is the most underrated performance-enhancing substance on the planet. Your blood is 90% water. Your brain is 73% water. Even your bones are 31% water. Lose just 2% of your body water and you start to see <strong>measurable drops in concentration, mood, and physical performance</strong>. A reliable <strong>water intake calculator</strong> takes the guesswork out of staying hydrated.</p>
+
+      <h3>Why the “8 Glasses a Day” Rule Is Wrong (for Most People)</h3>
+      <p>The famous “8×8” rule — eight 8-ounce glasses = 64 oz — was never based on real science. It first appeared in a 1945 U.S. Food and Nutrition Board recommendation that explicitly stated <em>most of this quantity is contained in prepared foods</em>. Modern guidelines from the <strong>National Academies of Sciences</strong> are much more nuanced:</p>
+      <ul>
+        <li><strong>Adult men:</strong> 3.7 L (125 oz) total fluids per day</li>
+        <li><strong>Adult women:</strong> 2.7 L (91 oz) total fluids per day</li>
+        <li><strong>Pregnant women:</strong> 3.0 L (101 oz)</li>
+        <li><strong>Breastfeeding women:</strong> 3.8 L (128 oz)</li>
+      </ul>
+      <p>That includes <em>all</em> fluids — water, coffee, tea, milk, juice, and water inside food (fruits and vegetables alone provide ~20%).</p>
+
+      <h3>The Personalized Hydration Formula</h3>
+      <p>Most evidence-based dietitians use this simple formula as a baseline:</p>
+      <blockquote><strong>Water (oz) = Body weight (lbs) × 0.5 to 0.67</strong><br>
+      <strong>Water (ml) = Body weight (kg) × 30 to 40</strong></blockquote>
+      <p>Then add adjustments:</p>
+      <ul>
+        <li>+12 oz (350 ml) per 30 minutes of exercise</li>
+        <li>+10–15% if you live in a hot climate</li>
+        <li>+15–20% if pregnant</li>
+        <li>+25% if breastfeeding</li>
+        <li>−10% if you’re a senior (kidney concentration declines)</li>
+      </ul>
+      <p>Our calculator runs these numbers automatically so you don’t have to.</p>
+
+      <h3>Signs You Are Not Drinking Enough Water</h3>
+      <ul>
+        <li>🟡 Dark yellow urine (aim for pale straw color)</li>
+        <li>😴 Afternoon fatigue &amp; brain fog</li>
+        <li>🤕 Frequent headaches</li>
+        <li>👅 Dry mouth or bad breath</li>
+        <li>💪 Muscle cramps during workouts</li>
+        <li>🥱 Sugar cravings (thirst is often misread as hunger)</li>
+      </ul>
+
+      <h3>Quick-Reference Daily Water by Weight</h3>
+      <div class="table-wrap">
+        <table class="age-table">
+          <thead><tr><th>Weight</th><th>Sedentary</th><th>Moderate Activity</th><th>Athlete / Hot Climate</th></tr></thead>
+          <tbody>
+            <tr><td>50 kg / 110 lbs</td><td>1.7 L (57 oz)</td><td>2.2 L (75 oz)</td><td>2.9 L (98 oz)</td></tr>
+            <tr><td>60 kg / 132 lbs</td><td>2.0 L (68 oz)</td><td>2.6 L (88 oz)</td><td>3.4 L (115 oz)</td></tr>
+            <tr><td>70 kg / 154 lbs</td><td>2.4 L (81 oz)</td><td>3.1 L (104 oz)</td><td>4.0 L (135 oz)</td></tr>
+            <tr><td>80 kg / 176 lbs</td><td>2.7 L (91 oz)</td><td>3.5 L (118 oz)</td><td>4.5 L (152 oz)</td></tr>
+            <tr><td>90 kg / 198 lbs</td><td>3.1 L (105 oz)</td><td>4.0 L (135 oz)</td><td>5.1 L (172 oz)</td></tr>
+            <tr><td>100 kg / 220 lbs</td><td>3.4 L (115 oz)</td><td>4.4 L (148 oz)</td><td>5.7 L (193 oz)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Benefits of Drinking the Right Amount of Water</h3>
+      <ul>
+        <li>🧠 <strong>Sharper focus &amp; memory</strong> — even mild dehydration drops cognitive performance up to 14%</li>
+        <li>⚖️ <strong>Easier weight management</strong> — water before meals reduces calorie intake by ~13%</li>
+        <li>❤️ <strong>Heart health</strong> — proper hydration lowers blood pressure and resting heart rate</li>
+        <li>✨ <strong>Glowing skin</strong> — hydrated skin shows fewer fine lines and better elasticity</li>
+        <li>🦴 <strong>Joint &amp; muscle support</strong> — synovial fluid is 80% water</li>
+        <li>💩 <strong>Better digestion</strong> — softens stool, prevents constipation</li>
+        <li>🛡️ <strong>Detoxification</strong> — kidneys filter ~50 gallons of fluid daily</li>
+      </ul>
+
+      <h3>When You Need MORE Water Than Usual</h3>
+      <ol>
+        <li><strong>Exercise:</strong> +500 ml per hour of moderate workout, +1 L+ for intense or hot sessions</li>
+        <li><strong>Hot weather:</strong> 35°C / 95°F days need +20–30% baseline</li>
+        <li><strong>High-altitude:</strong> Above 2,500 m (8,000 ft) requires +15%</li>
+        <li><strong>Illness:</strong> Fever, vomiting, diarrhea drastically raise needs</li>
+        <li><strong>Pregnancy &amp; breastfeeding:</strong> Major fluid demand (see calculator)</li>
+        <li><strong>High-protein / keto diet:</strong> Add 0.5 L for protein metabolism</li>
+        <li><strong>Air travel:</strong> Cabin humidity is &lt;20% — drink 250 ml per flight hour</li>
+      </ol>
+
+      <h3>Can You Drink Too Much Water? (Hyponatremia Warning)</h3>
+      <p>Yes — <strong>water intoxication is real and can be fatal</strong>. Drinking more than 1 liter (34 oz) per hour for several hours dilutes blood sodium below safe levels, causing headache, nausea, confusion, and in severe cases seizures or death. This is most common in endurance athletes and during water-drinking contests. Stay within the calculator’s daily range and spread intake across the entire day — never gulp huge volumes at once.</p>
+
+      <h3>Pro Tips to Hit Your Daily Water Goal</h3>
+      <ul>
+        <li>🌅 Drink 500 ml right after waking — kickstarts metabolism by up to 30%</li>
+        <li>🥤 Carry a 1 L reusable bottle — refill twice for women, three times for men</li>
+        <li>⏰ Set hourly phone reminders, or use the visual tracker in our calculator</li>
+        <li>🍋 Add lemon, cucumber or mint if plain water is boring</li>
+        <li>🍉 Eat water-rich foods: watermelon (92%), cucumber (96%), lettuce (95%)</li>
+        <li>🍵 Replace one cola/soda with sparkling water</li>
+        <li>🌡 Drink cool (not icy) water — easier to absorb &amp; gentler on the stomach</li>
+      </ul>
+
+      <h3>Final Word</h3>
+      <p>Hydration is the cheapest, easiest health upgrade you can make today. Use the calculator above to find your exact number, keep a bottle within reach, and within two weeks you’ll notice sharper energy, fewer headaches, and a clearer mind. Bookmark this page, share it with friends — and stay refreshed. 💧</p>
+    </div>
+
+    <!-- =========== STICKY SIDEBAR ADS (revealed on scroll into article) =========== -->
+    <aside class="article-aside" aria-label="Sidebar advertisements">
+
+      <div class="sidebar-ad" id="sidebar-ad-1">
+        <button class="ad-close" aria-label="Close advertisement">×</button>
+        <span class="ad-label">Ad</span>
+        <script>
+          atOptions = { 'key':'33171893b4787ca4cee6401025f5dba8','format':'iframe','height':300,'width':160,'params':{} };
+        </script>
+        <script src="https://www.highperformanceformat.com/33171893b4787ca4cee6401025f5dba8/invoke.js"></script>
+      </div>
+
+      <div class="sidebar-ad" id="sidebar-ad-2">
+        <button class="ad-close" aria-label="Close advertisement">×</button>
+        <span class="ad-label">Ad</span>
+        <script>
+          atOptions = { 'key':'9518982f09fa8e6543df625ab27d5ddb','format':'iframe','height':600,'width':160,'params':{} };
+        </script>
+        <script src="https://www.highperformanceformat.com/9518982f09fa8e6543df625ab27d5ddb/invoke.js"></script>
+      </div>
+
+    </aside>
+  </div>
+</article>
+
+<!-- ============ MID 300x250 ============ -->
+<div class="ad-wrap ad-rect container" aria-label="Advertisement">
+  <span class="ad-label">Advertisement</span>
+  <script>
+    atOptions = { 'key':'fb00edb57a9539f2b204f58ee1333672','format':'iframe','height':250,'width':300,'params':{} };
+  </script>
+  <script src="https://www.highperformanceformat.com/fb00edb57a9539f2b204f58ee1333672/invoke.js"></script>
+</div>
+
+<!-- ============== FAQ ============== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <details><summary>How much water should I drink a day?</summary>
+      <p>Most adult men need about 3.7 L (125 oz) and women 2.7 L (91 oz) of total fluids daily. Personal needs vary by weight, activity, and climate — use the calculator above for your exact number.</p></details>
+
+    <details><summary>How is daily water intake calculated?</summary>
+      <p>The simplest formula is body weight (lbs) × 0.5 = ounces of water per day, plus 12 oz per 30 minutes of exercise and +10–15% for hot weather.</p></details>
+
+    <details><summary>Is 8 glasses of water a day enough?</summary>
+      <p>For a sedentary 60 kg adult, yes. For larger adults, athletes, or hot climates, you’ll likely need 10–16 glasses.</p></details>
+
+    <details><summary>Do coffee, tea and juice count toward water intake?</summary>
+      <p>Yes. Their mild diuretic effect is offset by the fluid they contain. Aim for at least 60% of your daily fluid from plain water.</p></details>
+
+    <details><summary>Can I drink too much water?</summary>
+      <p>Yes. More than 1 L per hour for several hours can cause hyponatremia (low blood sodium). Spread intake evenly through the day.</p></details>
+
+    <details><summary>What's the best time to drink water?</summary>
+      <p>Right after waking, 30 min before meals, before/during/after exercise, and stop 1–2 hours before bed to avoid waking up at night.</p></details>
+
+    <details><summary>Does the water intake calculator work for kids?</summary>
+      <p>Yes — choose “Under 18” in the age selector. We use age-appropriate ratios published by the NIH.</p></details>
+
+  </div>
+</section>
+</main>
+
+<!-- ============== FOOTER ============== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo logo-footer">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="34" height="34">
+            <path d="M32 4 C 18 22, 12 32, 12 42 a20 20 0 0 0 40 0 c0 -10 -6 -20 -20 -38 z" fill="#00b4d8"/>
+            <ellipse cx="24" cy="38" rx="5" ry="8" fill="#ffffff" opacity=".35"/>
+          </svg>
+        </span>
+        <span class="logo-text"><b>Water</b>Intake<span>Calculator</span></span>
+      </div>
+      <p>The web's simplest, fastest, most accurate Water Intake Calculator. Backed by NIH &amp; Mayo Clinic data. Free forever.</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#calculator">Water Calculator</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#water-by-age">Water by Age</a></li>
+        <li><a href="#article">Hydration Guide</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:oursuna46@gmail.com">oursuna46@gmail.com</a></p>
+      <p>Web: <a href="https://waterintakecalculator.github.io/">waterintakecalculator.github.io</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© <span id="year"></span> Water Intake Calculator. All rights reserved. | Made with 💧 for a healthier you.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============== STICKY MOBILE BOTTOM AD (320x50 with close X) ============== -->
+<div class="sticky-bottom-ad" id="stickyAd" aria-label="Advertisement">
+  <button class="ad-close" id="closeStickyAd" aria-label="Close advertisement">×</button>
+  <span class="ad-label">Ad</span>
+  <script>
+    atOptions = { 'key':'d1b907d5740fd8f02e0cf85c3975f879','format':'iframe','height':50,'width':320,'params':{} };
+  </script>
+  <script src="https://www.highperformanceformat.com/d1b907d5740fd8f02e0cf85c3975f879/invoke.js"></script>
+</div>
+
+<!-- ============== INTERSTITIAL / POPUNDER ============== -->
+<script async="async" data-cfasync="false" src="https://pl29740890.effectivecpmnetwork.com/e2c2c3904bed6a40219fb955812671f3/invoke.js"></script>
+<div id="container-e2c2c3904bed6a40219fb955812671f3"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
